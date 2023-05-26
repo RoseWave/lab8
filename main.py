@@ -22,7 +22,7 @@ def proc2():
 
 
 def proc3():
-    x = Image.open('1.jpg')
+    x = Image.open('8.jpg')
     a = input("Напишите, кого вы хотите поздравить с днем рождения в именительном падеже: ")
 
     font = ImageFont.truetype("calibri.ttf", 35)
@@ -32,6 +32,5 @@ def proc3():
     x.show()
     x.save('с 8 марта.png')
 
-proc1()
-proc2()
+
 proc3()
